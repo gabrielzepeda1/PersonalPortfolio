@@ -1,0 +1,35 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+
+#welcome-section { 
+    height: 100vh;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (max-width: 768px) { 
+
+    #navbar { 
+        display: none;
+    }
+}
